@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #484994;
+}
+
+.display {
+    height: 15vh;
+    width: 25vw;
+    border: 1px solid #0c0d37;
+    background-color: #0c0d37;
+    border-radius: 20px;
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: right;
+    padding: 2em;
+}
+h4{
+    font-family: bold;
+    color: white;
+    font-size: 2em;
+    margin-top: 3em;
+  
+}
+.button-container {
+    height: 50vh;
+    width: 25vw;
+    border: 1px solid #0c0d37;
+    background-color: #0c0d37;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.btn, .reset, .equal {
+    border: 1px solid white;
+    background-color: white;
+    height: 3em;
+    width: calc(25% - 1em); /* Adjusting width to fit 4 buttons per row */
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.reset, .equal{
+    height: 3em;
+    width: calc(50% - 1em);
+    margin: 0.5em;
+
+}
+#del{
+    border: 1px solid rgb(57, 168, 196);
+    background-color: rgb(57, 168, 196);
+}
+#reset{
+    border: 1px solid rgb(57, 168, 196);
+    background-color: rgb(57, 168, 196);
+}
+#equalto{
+    border: 1px solid rgb(199, 37, 37);
+    background-color: rgb(199, 37, 37);
+}
+
+.cal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
